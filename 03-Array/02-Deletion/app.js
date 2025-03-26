@@ -1,11 +1,17 @@
+// At the Beginning
 
 const demo1 = [0, 1, 2, 3, 4];
 demo1.shift();
 console.log(demo1);
 
+// At the End
+
 const demo3 = [4, 3, 2, 1, 0];
 demo3.pop();
 console.log(demo3);
+
+
+// At the Given Position
 
 const demo2 = [0, 1, 2, 3, 3, 4, 5, 6];
 demo2.splice(3, 1);
